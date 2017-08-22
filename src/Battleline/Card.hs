@@ -1,4 +1,4 @@
-module Data.Card where
+module Battleline.Card where
 
 import Data.List (nub, sort)
 import Data.Sequence (Seq(..))

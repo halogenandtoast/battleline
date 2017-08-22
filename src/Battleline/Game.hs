@@ -1,11 +1,11 @@
-module Data.Game where
+module Battleline.Game where
 
-import System.Random
+import Battleline.Card
+import Battleline.Player
+import Battleline.Flag
 
-import Data.Card
-import Data.Player
-import Data.Flag
 import Control.Lens
+import System.Random
 
 data Game = Game { gamePlayer1 :: Player
                  , gamePlayer2 :: Player

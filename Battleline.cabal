@@ -26,11 +26,11 @@ library
   hs-source-dirs:
       src
   exposed-modules:
-      Data.Card
-      Data.Flag
-      Data.Formation
-      Data.Game
-      Data.Player
+      Battleline.Card
+      Battleline.Flag
+      Battleline.Formation
+      Battleline.Game
+      Battleline.Player
   build-depends:
       base >=4.7 && <5
     , random

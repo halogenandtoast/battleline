@@ -4,8 +4,8 @@ import System.Random
 import System.IO
 import Text.Read
 
-import Data.Game
-import Data.Player (playerHand, playerName)
+import Battleline.Game
+import Battleline.Player (playerHand, playerName)
 import Data.Sequence (Seq(..))
 import Data.Foldable (toList)
 

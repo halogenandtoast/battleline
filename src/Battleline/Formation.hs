@@ -1,6 +1,6 @@
-module Data.Formation where
+module Battleline.Formation where
 
-import Data.Card
+import Battleline.Card
 
 data Rank = Host | SkirmishLine | Battalion | Phalanx | Wedge deriving (Eq, Ord, Show)
 

@@ -1,8 +1,9 @@
-module Data.Flag where
+module Battleline.Flag where
 
-import Data.Card
+import Battleline.Card
+import Battleline.Formation
+
 import Data.List (intercalate)
-import Data.Formation
 
 data FlagWinner = None | Player1 | Player2 deriving (Show, Eq)
 

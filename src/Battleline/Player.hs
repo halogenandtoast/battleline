@@ -1,6 +1,7 @@
-module Data.Player where
+module Battleline.Player where
 
-import Data.Card
+import Battleline.Card
+
 import Data.Sequence ((<|), index, deleteAt, fromList)
 
 data Player = Player { playerName :: String, playerHand :: Hand }
